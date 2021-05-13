@@ -1,0 +1,54 @@
+body {margin: 0px;
+padding: 0px;
+}
+
+.contenedor {height: 100%;
+width: 100%;
+background: url(https://i.pinimg.com/originals/56/30/0a/56300ab5a0d71a1aa8746417cfebd8df.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+display: flex;}
+
+
+.card {
+    background-image: url(https://ak.picdn.net/shutterstock/videos/1037027657/thumb/1.jpg);
+    border-radius: 8px;
+    box-shadow: 3px 4px 8px rgba(0.5, 0, 0, 1);
+    height: 410px;
+    margin: 6rem auto 8.1rem auto;
+    margin-top: 250px;
+    width: 329px;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+.Titulo-login { margin: 0px;
+    padding: 0px 0px 22px;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 70px;
+    font-family: "Raleway Thin", sans-serif;
+    letter-spacing: 4px;
+}
+
+  .formulario { align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+#enviar-boton {
+    background: -webkit-linear-gradient(right, #a6f77b, #2dbd6e);
+    border: none;
+    border-radius: 21px;
+    box-shadow: 0px 1px 8px #24c64f;
+    cursor: pointer;
+    color: white;
+    font-family: "Raleway SemiBold", sans-serif;
+    height: 42.3px;
+    margin: 0 auto;
+    margin-top: 2px;
+    transition: 0.25s;
+    width: 153px;
+}
